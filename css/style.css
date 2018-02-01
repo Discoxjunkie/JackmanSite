@@ -4,3 +4,9 @@
    background-position: center;
    background-attachment: fixed;
 }
+
+.about {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: red;
+}
