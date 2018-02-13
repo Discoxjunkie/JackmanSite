@@ -3,10 +3,30 @@
    background-repeat: no-repeat;
    background-position: center;
    background-attachment: fixed;
+   padding-top: 10rem;
+   padding-bottom: 10rem;
 }
 
 .about {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color: red;
+  background-color: #148FAA;
+  color: white;
+
+}
+
+.properties {
+   padding-top: 10rem;
+   padding-bottom: 10rem;
+}
+
+.card {
+  margin-top: 5rem;
+}
+
+.contact {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #697180;
+  color:white;
 }
