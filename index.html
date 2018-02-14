@@ -58,10 +58,10 @@
     <section class="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-auto col-sm-12 align-self-center align-self-center">
-            <img class="rounded-circle" src="http://via.placeholder.com/300x300">
+          <div class="col-md-6 col-sm-12 col-lg-4 align-self-center about-text">
+            <img class="rounded-circle img-small" src="http://via.placeholder.com/300x300">
           </div>
-          <div class="col align-self-center">
+          <div class="col-lg-8 align-self-center col-sm-12 col-md-6 about-text">
             <h2> ABOUT</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. </p>
           </div>
@@ -185,30 +185,41 @@
           <div class="col-lg-6 col-md-12 col-sm-12">
             <h2> See something you like?</h2>
             <p>Lets chat.</p>
+            <span>
+              <i class="fab fa-twitter-square fa-2x"></i>
+              <i class="fab fa-linkedin fa-2x"></i>
+            </span>
           </div>
 
           <form>
-            <div class="row">
+            <div class="form-row">
               <div class="col">
                 <input type="text" class="form-control" placeholder="First name">
               </div>
               <div class="col">
                 <input type="text" class="form-control" placeholder="Last name">
               </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
               </div>
-              <div>
-              <div class="">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="form-row">
+              <div class="col">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Question?" ></textarea>
               </div>
-              <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Question?"></textarea>
-              </div>
-            </form>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </form>
+
       </div>
       </div>
 
     </section>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
